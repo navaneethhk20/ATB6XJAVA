@@ -1,0 +1,8 @@
+package Lab06062025;
+
+public class Lab01 {
+    public static void main(String[] args) {
+        final int a =10;
+        System.out.println(a);
+    }
+}
