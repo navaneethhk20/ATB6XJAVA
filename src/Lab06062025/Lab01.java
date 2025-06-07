@@ -6,5 +6,6 @@ public class Lab01 {
        // a=11;
 
         System.out.println(a);
+
     }
 }
