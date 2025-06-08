@@ -5,5 +5,6 @@ public class Lab01 {
         final int a =10;
        // a=11;
         System.out.println(a);
+
     }
 }
