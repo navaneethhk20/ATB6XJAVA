@@ -1,6 +1,4 @@
-package EX08062025;
-
-import javax.swing.*;
+package EX08062025.Part1;
 
 public class Lab09 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package EX08062025;
+package EX08062025.Part1;
 
 public class Lab06 {
     public static void main(String[] args) {
