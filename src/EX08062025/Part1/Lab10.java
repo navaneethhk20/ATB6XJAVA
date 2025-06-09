@@ -8,14 +8,15 @@ public class Lab10 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the string name");
         String input = sc.next();
+        input = input.toLowerCase();
 
         StringBuilder sb = new StringBuilder(input);
         String rev_str = sb.reverse().toString();
         if(input.equalsIgnoreCase(rev_str)){
-            System.out.println(rev_str);
+
             System.out.println("palindrome");
         }else {
-            System.out.println(rev_str);
+
             System.out.println("not a palindrome");
         }
         sc.close();
