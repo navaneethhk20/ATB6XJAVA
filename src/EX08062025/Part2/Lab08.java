@@ -14,8 +14,6 @@ public class Lab08 {
             }else {
                 System.out.println();
             }
-
         }
-
     }
 }
