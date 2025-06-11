@@ -9,7 +9,7 @@ public class L2 {
         System.out.println("Enter the number");
         int num = sc.nextInt();
         for(int i=0;i<num;i++){
-            for(int j=i;j>0;j--){
+            for(int j=0;j<i;j++){
                 System.out.print("*");
             }
             System.out.println();
