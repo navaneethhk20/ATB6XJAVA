@@ -10,5 +10,4 @@ public class L4 {
             System.out.println();
         }
     }
-
 }
