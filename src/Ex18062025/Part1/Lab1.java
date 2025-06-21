@@ -12,6 +12,7 @@ public class Lab1 {
                 System.out.print("*");
             }
             System.out.println();
+
         }
     }
 }
