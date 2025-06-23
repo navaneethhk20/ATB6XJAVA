@@ -10,8 +10,14 @@ public class Lab01 {
     public static void main(String[] args) {
         //Reverse an array
         Integer [] arr = {54,60,20,7,4,3,2,1};
-        TreeSet<Integer> treeSet = new TreeSet<>(List.of(arr));
-        System.out.println(List.of(arr));
-        System.out.println(treeSet);
+        ArrayList arrayList = new ArrayList(List.of(arr));
+        Collections.reverse(arrayList);
+        System.out.println(arrayList);
+
+        //Using tree set
+        /**
+         * TreeSet treeset = new TreeSet(List.of(arr));
+         * System.out.pritln(arr);
+         */
     }
 }
